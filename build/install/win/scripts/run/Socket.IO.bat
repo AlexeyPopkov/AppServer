@@ -1,0 +1,2 @@
+echo "RUN ASC.Socket.IO.Svc"
+call dotnet ..\..\Files\Services\ASC.Socket.IO.Svc\ASC.Socket.IO.Svc.dll --urls=http://0.0.0.0:5017 --pathToConf=..\..\Files\config  --$STORAGE_ROOT=..\..\Files\Data --log__dir=..\..\Logs --log__name=socket

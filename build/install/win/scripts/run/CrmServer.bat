@@ -1,0 +1,2 @@
+echo "RUN ASC.CRM"
+call dotnet ..\..\Files\Services\ASC.CRM\ASC.CRM.dll --urls=http://0.0.0.0:5021 --pathToConf=..\..\Files\config  --$STORAGE_ROOT=..\..\Files\Data --log__dir=..\..\Logs --log__name=crm

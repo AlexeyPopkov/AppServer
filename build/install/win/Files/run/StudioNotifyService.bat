@@ -1,0 +1,2 @@
+echo "RUN ASC.Studio.Notify"
+call dotnet ..\Services\ASC.Studio.Notify\ASC.Studio.Notify.dll --urls=http://0.0.0.0:5006 --pathToConf=..\..\Files\config  --$STORAGE_ROOT=..\..\Files\Data --log__dir=..\..\Logs --log__name=studio.notify

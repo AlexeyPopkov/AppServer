@@ -1,0 +1,2 @@
+echo "RUN ASC.Files"
+call dotnet ..\Services\ASC.Files.Service\ASC.Files.Service.dll --urls=http://0.0.0.0:5009 --pathToConf=..\..\Files\config  --$STORAGE_ROOT=..\..\Files\Data --log__dir=..\..\Logs --log__name=files

@@ -1,0 +1,2 @@
+echo "RUN ASC.Thumbnails.Svc"
+call dotnet ..\..\Files\Services\ASC.Thumbnails.Svc\ASC.Thumbnails.Svc.dll --urls=http://0.0.0.0:5016 --pathToConf=..\..\Files\config  --$STORAGE_ROOT=..\..\Files\Data --log__dir=..\..\Logs --log__name=thumbnails

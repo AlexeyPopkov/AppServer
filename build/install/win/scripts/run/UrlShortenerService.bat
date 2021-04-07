@@ -1,0 +1,2 @@
+echo "RUN ASC.UrlShortener.Svc"
+call dotnet ..\..\Files\Services\ASC.UrlShortener.Svc\ASC.UrlShortener.Svc.dll --urls=http://0.0.0.0:5015 --pathToConf=..\..\Files\config  --$STORAGE_ROOT=..\..\Files\Data --log__dir=..\..\Logs --log__name=urlshortener

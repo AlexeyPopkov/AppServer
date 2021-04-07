@@ -1,0 +1,2 @@
+echo "RUN ASC.People"
+call dotnet ..\..\Files\Services\ASC.People\ASC.People.dll --urls=http://0.0.0.0:5004 --pathToConf=..\..\Files\config  --$STORAGE_ROOT=..\..\Files\Data --log__dir=..\..\Logs --log__name=people

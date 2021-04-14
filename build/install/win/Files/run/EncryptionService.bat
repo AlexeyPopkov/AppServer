@@ -1,2 +1,2 @@
 echo "RUN ASC.Data.Storage.Encryption"
-call dotnet ..\Services\ASC.Data.Storage.Encryption\ASC.Data.Storage.Encryption.dll --urls=http://0.0.0.0:5019 --pathToConf=..\..\Files\config  --$STORAGE_ROOT=..\..\Files\Data --log__dir=..\..\Logs --log__name=encryption
+call dotnet ..\Services\ASC.Data.Storage.Encryption\ASC.Data.Storage.Encryption.dll --urls=http://0.0.0.0:5019 --pathToConf=..\config  --$STORAGE_ROOT=..\Data --log__dir=C:\Logs --log__name=encryption

@@ -1,2 +1,2 @@
 echo "RUN ASC.TelegramService"
-call dotnet ..\Services\ASC.TelegramService\ASC.TelegramService.dll --urls=http://0.0.0.0:51702 --pathToConf=..\..\Files\config  --$STORAGE_ROOT=..\..\Files\Data --log__dir=..\..\Logs --log__name=telegram
+call dotnet ..\Services\ASC.TelegramService\ASC.TelegramService.dll --urls=http://0.0.0.0:51702 --pathToConf=..\config  --$STORAGE_ROOT=..\Data --log__dir=C:\Logs --log__name=telegram

@@ -1,11 +1,11 @@
-:: Очищаем папку Files\Services
-:: Поддержка длинных имен файлов при удалении: https://superuser.com/a/1048242/71768
+:: Clear the folder Files\Services
+:: Support for long filepaths: https://superuser.com/a/1048242/71768
 echo "Purge Files\Services folder"
 mkdir %~dp0$emptyfolder
 robocopy %~dp0$emptyfolder %~dp0Files\Services /purge > nul
 rmdir %~dp0$emptyfolder
 
-:: Переход в корневую директорию проекта
+:: Go to the root directory of the project
 PUSHD %~dp0..\..\..
 echo %cd%
 

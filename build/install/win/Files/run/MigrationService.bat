@@ -1,2 +1,2 @@
 echo "RUN ASC.Migration"
-call dotnet ..\Services\ASC.Data.Storage.Migration\ASC.Data.Storage.Migration.dll --urls=http://0.0.0.0:5018 --pathToConf=..\..\Files\config  --$STORAGE_ROOT=..\..\Files\Data --log__dir=..\..\Logs --log__name=migration
+call dotnet ..\Services\ASC.Data.Storage.Migration\ASC.Data.Storage.Migration.dll --urls=http://0.0.0.0:5018 --pathToConf=..\config  --$STORAGE_ROOT=..\Data --log__dir=C:\Logs --log__name=migration

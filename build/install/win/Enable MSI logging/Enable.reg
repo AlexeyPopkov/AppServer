@@ -1,5 +1,0 @@
-REGEDIT4
-
-[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer]
-"Logging"="voicewarmup"
-"Debug"=dword:00000007
